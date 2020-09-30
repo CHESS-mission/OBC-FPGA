@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom struct_tristate
+DEFAULT_FILE atom gpio@bank@control/struct_tristate.bd

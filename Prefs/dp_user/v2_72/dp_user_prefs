@@ -1,0 +1,63 @@
+[LexParser.LexVHDL2008]
+[LexParser]
+[Editor]
+recentFile0=C:/work/OBC/libs/Memory/hdl/fifo_bram_rtl.vhd
+lastFilter=.vhd
+mark.lineImage=yellowball
+[Printer]
+[ToolbarFrames]
+geom0Group1=top H
+geom0Group2=top H
+geom0Group3=top H
+state0Search=1
+Num=0
+state0VersionManagement=1
+state0Tasks=1
+state0View=1
+state0Standard=1
+state0Edit=1
+Group1=Standard Search
+Group2=Edit Bookmarks View Macros DocumentTools Windows
+Group3=VersionManagement Tasks
+state0Macros=1
+state0Bookmarks=1
+state0Windows=1
+state0DocumentTools=1
+[LexParser.LexPSL]
+[DND]
+TrackerBg=SystemHighlight
+signalAcceptDropBg=white
+signalRefuseDropBg=red
+[General]
+[Browser]
+normalTextBg=white
+normalTextFg=black
+[Replace]
+historyMax=4
+atomicReplaceAll=No
+[Console]
+[Templates]
+Visibility=No
+[SearchInFiles]
+SearchAsRegExp=0
+MatchCase=0
+LookInSubfolders=0
+historyMax=4
+[Geometry]
+TopWindow0=950x700+0+0
+FrameSupp0,0=165
+[VDiff]
+[R72]
+indentType=spaces
+indentString=\#\#\#
+[TCOM]
+logTCOMActivity=No
+afterIdleHandlerTimeSlice=300
+[Menus]
+DocAndVis=
+[Help]
+default=te_guide
+[Plugins]
+userLanguages=
+[Search]
+historyMax=4

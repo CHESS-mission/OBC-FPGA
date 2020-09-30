@@ -1,0 +1,21 @@
+[hdl]
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+synopsys = $HDS_HOME/hdl_libs/synopsys/hdl
+verilog = $HDS_HOME/hdl_libs/verilog/hdl
+vital2000 = $HDS_HOME/hdl_libs/vital2000/hdl
+[hds]
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+std = $HDS_HOME/hdl_libs/std/hds
+synopsys = $HDS_HOME/hdl_libs/synopsys/hds
+verilog = $HDS_HOME/hdl_libs/verilog/hds
+vital2000 = $HDS_HOME/hdl_libs/vital2000/hds
+[hds_settings]
+project_description = The standard HDS shared project
+version = 2
+[library_type]
+ieee = standard
+std = standard
+synopsys = standard
+verilog = standard
+vital2000 = standard

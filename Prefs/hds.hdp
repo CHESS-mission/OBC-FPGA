@@ -1,0 +1,66 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+OBC = $HDS_PROJECT_DIR/../OBC/concat
+[DesignChecker]
+Board = $HDS_PROJECT_DIR/../Board/designcheck
+[ModelSim]
+Board = $SCRATCH_DIR/Board
+Common = $SCRATCH_DIR/Common
+Common_test = $SCRATCH_DIR/Common_test
+Gates = $SCRATCH_DIR/Gates
+IO = $SCRATCH_DIR/IO
+Memory = $SCRATCH_DIR/Memory
+Memory_test = $SCRATCH_DIR/Memory_test
+OBC = $SCRATCH_DIR/OBC
+OBC_test = $SCRATCH_DIR/OBC_test
+RS232 = $SCRATCH_DIR/RS232
+RS232_test = $SCRATCH_DIR/RS232_test
+Sequential = $SCRATCH_DIR/Sequential
+SPI = $SCRATCH_DIR/SPI
+SPI_test = $SCRATCH_DIR/SPI_test
+RiscV = $SCRATCH_DIR/RiscV
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+Gates = $HEI_LIBS_DIR/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+IO = $HEI_LIBS_DIR/IO/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+Memory_test = $HEI_LIBS_DIR/Memory_test/hdl
+OBC = $HDS_PROJECT_DIR/../OBC/hdl
+OBC_test = $HDS_PROJECT_DIR/../OBC_test/hdl
+RS232 = $HEI_LIBS_DIR/RS232/hdl
+RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+Sequential = $HEI_LIBS_DIR/Sequential/hdl
+SPI = $HEI_LIBS_DIR/SPI/hdl
+SPI_test = $HEI_LIBS_DIR/SPI_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+RiscV = $HDS_PROJECT_DIR/../RiscV/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+Gates = $HEI_LIBS_DIR/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+IO = $HEI_LIBS_DIR/IO/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+Memory_test = $HEI_LIBS_DIR/Memory_test/hds
+OBC = $HDS_PROJECT_DIR/../OBC/hds
+OBC_test = $HDS_PROJECT_DIR/../OBC_test/hds
+RS232 = $HEI_LIBS_DIR/RS232/hds
+RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+Sequential = $HEI_LIBS_DIR/Sequential/hds
+SPI = $HEI_LIBS_DIR/SPI/hds
+SPI_test = $HEI_LIBS_DIR/SPI_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+RiscV = $HDS_PROJECT_DIR/../RiscV/hds
+[hds_settings]
+design_root = Board.obc_test_circuit(struct)obc_test_circuit/struct.bd
+[library_files_inclusion]
+Board = specify
+[library_type]
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

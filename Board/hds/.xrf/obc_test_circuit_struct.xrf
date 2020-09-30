@@ -1,0 +1,681 @@
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 41,0 9 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 15
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 0,0 21 2 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1484,0 26 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1468,0 27 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1470,0 28 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1472,0 29 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3061,0 30 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3065,0 31 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3059,0 32 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3063,0 33 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2989,0 34 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1452,0 35 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1450,0 36 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1458,0 37 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1462,0 38 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1460,0 39 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1456,0 40 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1448,0 41 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1444,0 42 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1446,0 43 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1442,0 44 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1454,0 45 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1464,0 46 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3901,0 47 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3436,0 48 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3438,0 49 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3432,0 50 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 321,0 51 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 329,0 52 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 319,0 53 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 325,0 54 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 55
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 56
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 144,0 58 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 60 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 61 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 62 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 63 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3067,0 66 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 14,0 67 1 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 151,0 72 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 156,0 73 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 166,0 74 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 161,0 75 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 181,0 76 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 171,0 77 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 186,0 78 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 176,0 79 0 
+DESIGN @s@p@i_@i@o_@tristate
+VIEW symbol.sb
+GRAPHIC 191,0 80 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 124,0 83 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 85 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 86 0 
+LIBRARY Gates
+DESIGN buffer@ulogic
+VIEW sim
+GRAPHIC 3222,0 89 0 
+DESIGN buffer@ulogic
+VIEW symbol.sb
+GRAPHIC 14,0 90 1 
+DESIGN buffer@ulogic
+VIEW symbol.sb
+GRAPHIC 16,0 94 0 
+DESIGN buffer@ulogic
+VIEW symbol.sb
+GRAPHIC 22,0 95 0 
+LIBRARY OBC
+DESIGN @s@p@i_@slave@select
+VIEW @slave@selector
+GRAPHIC 2979,0 98 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 59,0 100 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 81,0 101 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 64,0 102 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 69,0 103 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 74,0 104 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 170,0 107 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 142,0 109 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 147,0 110 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 110,0 111 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 275,0 112 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 285,0 113 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 280,0 114 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 290,0 115 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 533,0 118 0 
+DESIGN gpio@bank@control
+VIEW symbol.sb
+GRAPHIC 14,0 119 1 
+DESIGN gpio@bank@control
+VIEW symbol.sb
+GRAPHIC 110,0 123 0 
+DESIGN gpio@bank@control
+VIEW symbol.sb
+GRAPHIC 140,0 124 0 
+DESIGN gpio@bank@control
+VIEW symbol.sb
+GRAPHIC 195,0 125 0 
+DESIGN gpio@bank@control
+VIEW symbol.sb
+GRAPHIC 301,0 126 0 
+LIBRARY RiscV
+DESIGN @murax
+VIEW @murax
+GRAPHIC 4382,0 129 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 140
+LIBRARY SPI
+DESIGN spi@fifo
+VIEW struct
+GRAPHIC 2949,0 142 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 14,0 143 1 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 203,0 152 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 368,0 153 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 173,0 154 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 431,0 155 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 178,0 156 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 426,0 157 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 193,0 158 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 198,0 159 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 375,0 160 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 208,0 161 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 168,0 162 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 910,0 163 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 963,0 164 0 
+LIBRARY Board
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 167
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 144,0 170 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3067,0 171 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2979,0 172 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 170,0 173 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3826,0 174 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 533,0 175 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 207,0 176 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2949,0 177 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 180
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 115,0 183 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 185
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 186
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 144,0 188 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 261,0 190 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 273,0 191 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 267,0 192 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 257,0 193 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3067,0 195 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3074,0 196 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2995,0 201 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3011,0 202 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3003,0 203 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3019,0 204 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3144,0 205 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3136,0 206 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3120,0 207 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3128,0 208 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3112,0 209 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 124,0 211 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 277,0 213 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 273,0 214 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 207,0 216 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 257,0 218 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 281,0 219 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3222,0 221 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3229,0 222 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3328,0 226 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3334,0 227 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3247,0 229 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3254,0 230 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3344,0 234 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3339,0 235 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3272,0 237 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3279,0 238 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3316,0 242 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3350,0 243 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3297,0 245 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3304,0 246 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3322,0 250 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3355,0 251 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3774,0 253 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3781,0 254 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1376,0 258 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3420,0 259 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3786,0 261 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3793,0 262 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1370,0 266 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3408,0 267 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 4052,0 269 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 4059,0 270 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1430,0 274 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3903,0 275 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3826,0 277 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3833,0 278 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3426,0 282 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1400,0 283 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2979,0 285 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2991,0 287 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1074,0 288 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1358,0 289 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1362,0 290 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 170,0 293 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 303,0 295 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 309,0 296 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 295,0 297 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 315,0 298 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 299,0 299 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 291,0 300 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 287,0 301 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 533,0 303 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 540,0 304 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1126,0 308 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1168,0 309 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1204,0 310 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1228,0 311 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 483,0 313 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 490,0 314 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1180,0 318 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1174,0 319 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1162,0 320 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1240,0 321 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 508,0 323 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 515,0 324 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1192,0 328 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1198,0 329 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1186,0 330 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1222,0 331 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 558,0 333 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 565,0 334 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1150,0 338 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1144,0 339 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1156,0 340 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1216,0 341 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 4382,0 343 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3392,0 345 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3400,0 346 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3420,0 347 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3408,0 348 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3426,0 349 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3903,0 350 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1156,0 351 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1150,0 352 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1144,0 353 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2949,0 355 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2956,0 356 1 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3043,0 365 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2995,0 366 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1132,0 367 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1366,0 368 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1138,0 369 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1294,0 370 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3019,0 371 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3003,0 372 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3035,0 373 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3051,0 374 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 1354,0 375 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 3011,0 376 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+GRAPHIC 2991,0 377 0 
+DESIGN obc_test_circuit
+VIEW struct.bd
+NO_GRAPHIC 380

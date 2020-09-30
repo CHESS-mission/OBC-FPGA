@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom arch
+DEFAULT_FILE atom edgeDetector_arch.vhd

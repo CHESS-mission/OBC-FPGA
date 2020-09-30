@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom bhv
+DEFAULT_FILE atom spiStorage_bhv.vhd

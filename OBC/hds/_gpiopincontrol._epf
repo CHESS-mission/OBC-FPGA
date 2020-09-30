@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom pinControl
+DEFAULT_FILE atom gpioPinControl_pinControl.vhd

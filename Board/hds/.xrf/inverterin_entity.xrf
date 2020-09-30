@@ -1,0 +1,18 @@
+DESIGN inverter@in
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 41,0 8 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 13 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 14 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 31,0 17 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 31,0 18 0 

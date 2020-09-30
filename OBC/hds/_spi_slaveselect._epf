@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom SlaveSelector
+DEFAULT_FILE atom SPI_SlaveSelect_SlaveSelector.vhd

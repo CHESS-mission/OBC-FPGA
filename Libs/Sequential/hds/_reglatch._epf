@@ -1,0 +1,2 @@
+DEFAULT_FILE atom reglatch_behav.vhd
+DEFAULT_ARCHITECTURE atom behav

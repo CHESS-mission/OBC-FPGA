@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom test
+DEFAULT_FILE atom OBC_SPI_TB_test.vhd

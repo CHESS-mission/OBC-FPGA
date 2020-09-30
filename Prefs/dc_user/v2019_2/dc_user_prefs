@@ -1,0 +1,522 @@
+version "19.2"
+Lint [
+(LintPreferences
+version "1.1"
+xPos 100
+yPos 100
+width 820
+height 650
+unixHTMLViewer ""
+showGettingStarted 1
+masterClocks [
+]
+masterResets [
+]
+vhdlExtensions [
+"vhd"
+"vhdl"
+"vho"
+]
+verilogExtensions [
+"v"
+"vlg"
+"verilog"
+"vo"
+"sv"
+"svh"
+]
+verilogSearchPath ""
+verilogLibraryOrder ""
+verilogDefaultLibrary "work"
+vhdlDefaultLibrary "work"
+rulesetLocation ""
+lastOpenProject ""
+autoDetectDesignRoot 1
+recentProjects [
+]
+Viewpoints_V2 [
+(Viewpoint_v2
+name "All: (No Groups)"
+TreeListVPDatas [
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList ""
+columns [
+(SmartTableVPData_Column
+name "Rule Severity"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Rule Category"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Ruleset"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Rule Name"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Severity, Ruleset and Rule"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Library"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Design Unit Name"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Scope"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Library, Design Unit and Scope"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Filename"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Leaf Filename"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Line Number"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "File and Line"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Full Message"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Rule Path"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Severity and Rule Path"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Full Message with Rule Path"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Message"
+width 24
+alignment 1
+)
+(SmartTableVPData_Column
+name "Code Snippet"
+width 80
+alignment 1
+)
+(SmartTableVPData_Column
+name "Hint"
+width 21
+alignment 1
+)
+]
+filterNames [
+"Architectures"
+"Classes"
+"Configurations"
+"Contexts"
+"Entities"
+"Files"
+"Interfaces"
+"Modules"
+"Package Bodies"
+"Package Headers"
+"Program Blocks"
+"SV Packages"
+"Syntax Errors"
+]
+filterString ""
+filterColumn ""
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+]
+disableFilters 1
+)
+]
+layoutExpression ""
+)
+(Viewpoint_v2
+name "List: (No Groups)"
+TreeListVPDatas [
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList ""
+columns [
+(SmartTableVPData_Column
+name "Rule Severity"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Rule Category"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Ruleset"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Rule Name"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Library"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Design Unit Name"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Scope"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Filename"
+width 200
+alignment 0
+)
+(SmartTableVPData_Column
+name "Leaf Filename"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Line Number"
+width 100
+alignment 0
+)
+(SmartTableVPData_Column
+name "Message"
+width 291
+alignment 0
+)
+(SmartTableVPData_Column
+name "Hint"
+width 354
+alignment 0
+)
+]
+filterNames [
+"Architectures"
+"Classes"
+"Configurations"
+"Contexts"
+"Entities"
+"Files"
+"Interfaces"
+"Modules"
+"Package Bodies"
+"Package Headers"
+"Program Blocks"
+"SV Packages"
+"Syntax Errors"
+]
+filterString ""
+filterColumn ""
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+]
+disableFilters 1
+)
+]
+layoutExpression ""
+)
+(Viewpoint_v2
+name "Severity & File"
+TreeListVPDatas [
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList ""
+columns [
+(SmartTableVPData_Column
+name "Message"
+width 291
+alignment 0
+)
+(SmartTableVPData_Column
+name "Line Number"
+width 64
+alignment 0
+)
+(SmartTableVPData_Column
+name "Code Snippet"
+width 80
+alignment 1
+)
+(SmartTableVPData_Column
+name "Hint"
+width 21
+alignment 1
+)
+]
+filterNames [
+"Architectures"
+"Classes"
+"Configurations"
+"Contexts"
+"Entities"
+"Files"
+"Interfaces"
+"Modules"
+"Package Bodies"
+"Package Headers"
+"Program Blocks"
+"SV Packages"
+"Syntax Errors"
+]
+filterString ""
+filterColumn ""
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+"Rule Severity"
+"Leaf Filename"
+"Rule Name"
+]
+disableFilters 1
+)
+]
+layoutExpression ""
+)
+(Viewpoint_v2
+name "Severity & Ruleset"
+TreeListVPDatas [
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList ""
+columns [
+(SmartTableVPData_Column
+name "Message"
+width 291
+alignment 0
+)
+(SmartTableVPData_Column
+name "Line Number"
+width 64
+alignment 0
+)
+(SmartTableVPData_Column
+name "Code Snippet"
+width 80
+alignment 1
+)
+(SmartTableVPData_Column
+name "Hint"
+width 21
+alignment 1
+)
+]
+filterNames [
+"Architectures"
+"Classes"
+"Configurations"
+"Contexts"
+"Entities"
+"Files"
+"Interfaces"
+"Modules"
+"Package Bodies"
+"Package Headers"
+"Program Blocks"
+"SV Packages"
+"Syntax Errors"
+]
+filterString ""
+filterColumn ""
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+"Rule Severity"
+"Severity, Ruleset and Rule"
+"Library, Design Unit and Scope"
+]
+disableFilters 1
+)
+]
+layoutExpression ""
+)
+(Viewpoint_v2
+name "Severity & Rule Path"
+TreeListVPDatas [
+]
+SmartTableVPDatas [
+(SmartTableVPData
+theList ""
+columns [
+(SmartTableVPData_Column
+name "Message"
+width 291
+alignment 0
+)
+(SmartTableVPData_Column
+name "Line Number"
+width 64
+alignment 0
+)
+(SmartTableVPData_Column
+name "Code Snippet"
+width 80
+alignment 1
+)
+(SmartTableVPData_Column
+name "Hint"
+width 21
+alignment 1
+)
+]
+filterNames [
+"Architectures"
+"Classes"
+"Configurations"
+"Contexts"
+"Entities"
+"Files"
+"Interfaces"
+"Modules"
+"Package Bodies"
+"Package Headers"
+"Program Blocks"
+"SV Packages"
+"Syntax Errors"
+]
+filterString ""
+filterColumn ""
+matchCase 0
+matchWholeWordOnly 0
+regularExpression 1
+groupNames [
+"Rule Severity"
+"Severity and Rule Path"
+"Library, Design Unit and Scope"
+]
+disableFilters 1
+)
+]
+layoutExpression ""
+)
+]
+activeViewpoint 3
+shortcutViewpoints [
+"All: (No Groups)"
+"List: (No Groups)"
+"Severity & File"
+"Severity & Ruleset"
+"Severity & Rule Path"
+]
+summaryExpandCollapseState [
+1
+1
+0
+0
+0
+0
+]
+defaultPolicyName "My_Essentials_Policy"
+expandedFolders [
+]
+selectedFolder [
+]
+selectedItem ""
+searchPattern ""
+searchMatchAllWords 0
+searchIncludeSynonyms 0
+searchMatchWholeWordOnly 0
+searchMatchCase 0
+searchUseRegularExpression 0
+searchSelectedParams [
+]
+reportMissingDeclarations 0
+reportMissingDeclarationsLocation ""
+generateMissingDeclarations 0
+generateMissingDeclarationsOption ""
+generatedMissingDeclarationsLocation ""
+copyBeforeOverwriteGeneratedFiles 0
+treatDonttouchAsMissingDeclarations 0
+generateMissingBuffer 0
+copyBeforeOverwritePrefix ""
+promptJustification 1
+displayWaivers 0
+allowSynthPragmasToDisableParsing 0
+enableSummaryExtraInfo 1
+searchSelectedNodes [
+]
+searchExpandedNodes [
+]
+checkedExampleRulesets [
+]
+SeverityClasses [
+]
+ActiveSeverityClass -1
+ActiveSeverityClassName ""
+win32CustomColours (win32CustomColours
+color0 16777215
+color1 16777215
+color2 16777215
+color3 16777215
+color4 16777215
+color5 16777215
+color6 16777215
+color7 16777215
+color8 16777215
+color9 16777215
+color10 16777215
+color11 16777215
+color12 16777215
+color13 16777215
+color14 16777215
+color15 16777215
+)
+enableScoring 1
+includeDisabledRules 0
+)
+]

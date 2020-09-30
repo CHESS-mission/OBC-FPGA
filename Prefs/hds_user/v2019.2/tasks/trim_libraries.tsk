@@ -1,0 +1,41 @@
+version "1.1"
+HDSTool (HDSTool
+hasAssociatedFileExt 0
+associatedFileExt ""
+TaskName "Trim libraries"
+bitmap "tool_default_tool.bmp"
+hasBitmap 1
+tooltip "Comment out library declarations for single file VHDL"
+taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"additionalToolArgs"
+"$SCRIPTS_DIR/trimlibs.pl"
+"captureOutput"
+"1"
+"customPrompt"
+""
+"initialDir"
+"$CONCAT_DIR"
+"promptForRunSettings"
+"0"
+"runMethod"
+"gui"
+"runnableObject"
+"$HDS_HOME\\resources\\perl\\bin\\perl.exe"
+"runnableObjectType"
+"executable"
+"useViewSpecific"
+"0"
+]
+)
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 3
+)

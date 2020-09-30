@@ -1,0 +1,39 @@
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 41,0 9 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 0,0 14 2 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 20
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 21
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 182,0 24 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 33
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 326,0 34 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 49
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 50
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 53

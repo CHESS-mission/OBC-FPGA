@@ -1,0 +1,138 @@
+version "1.1"
+HDSFlow (HDSFlow
+TaskName "Prepare for Synthesis"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools\\tool_leonardo.bmp"
+hasBitmap 1
+tooltip "Single file VHDL Synthesis Flow"
+taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"flowSettingsDlg"
+""
+"taskInvocationScript"
+""
+]
+)
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 1
+subTasks [
+(HDSTaskRef
+TaskName "Generate"
+bitmap ""
+hasBitmap 1
+tooltip ""
+taskSettings [
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 1
+reffedTaskName "USER:Generate"
+)
+(HDSTool
+hasAssociatedFileExt 0
+associatedFileExt ""
+TaskName "Concatenate HDL"
+bitmap "$HDS_HOME\\resources\\bitmaps\\tools/tool_designanalyst.bmp"
+hasBitmap 1
+tooltip "Appends all HDL files together"
+taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"additionalToolArgs"
+""
+"captureOutput"
+"1"
+"customPrompt"
+""
+"initialDir"
+""
+"promptForRunSettings"
+"0"
+"runMethod"
+"gui"
+"runnableObject"
+"Concatenation"
+"runnableObjectType"
+"tcl_plugin"
+"useViewSpecific"
+"1"
+]
+)
+"TaskSetting"
+(SettingsMap
+settingsMap [
+"outputFileNameRoot"
+"%(concat_file)"
+"outputVerilogFileExtension"
+"v"
+"outputVhdlFileExtension"
+"vhd"
+"place"
+"0"
+"specifyDir"
+""
+]
+)
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 1
+)
+(HDSTool
+hasAssociatedFileExt 0
+associatedFileExt ""
+TaskName "Trim libs"
+bitmap "tool_default_tool.bmp"
+hasBitmap 1
+tooltip "Comment out library declarations for single file VHDL"
+taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"additionalToolArgs"
+"$SCRIPTS_DIR\\Trimlibs.pl %(concat_file).vhd concatened.vhd"
+"captureOutput"
+"1"
+"customPrompt"
+""
+"initialDir"
+"$CONCAT_DIR"
+"promptForRunSettings"
+"0"
+"runMethod"
+"gui"
+"runnableObject"
+"$HDS_HOME\\resources\\perl\\bin\\perl.exe"
+"runnableObjectType"
+"executable"
+"useViewSpecific"
+"0"
+]
+)
+]
+PreferedTasks [
+]
+onShortcutBar 0
+onPulldownMenu 0
+onToolbar 0
+enabled 1
+hierDepth 3
+)
+]
+)
